@@ -1,0 +1,10 @@
+0 1 -1 -1 -1 -1 -1 2 -1
+Patio do Limoeiro (Cadeia). A chuva cai sobre a pedra escurecida pelo sangue de antigas execucoes. O unico caminho seguro parece ser a norte.
+1 2 0 3 -1 -1 4 3 -1
+A Nave Principal da Se. O teto desabou, revelando um ceu vermelho tempestuoso. Esqueletos de monges jazem nos bancos.
+2 -1 1 -1 -1 -1 -1 1 -1
+O Altar-Mor. Onde antes havia ouro, agora ha runas demoniacas. Um brilho azulado emana de um frasco intacto no chao.
+3 -1 -1 -1 1 -1 -1 0 -1
+Antigo posto da Guarda Real. Armaduras retorcidas decoram as paredes. Num canto, uma espada brilha com uma luz divina.
+4 -1 -1 -1 -1 1 -1 -1 1
+A Cripta Real. O ar e gelido e cheira a enxofre. No centro, sobre o tumulo profanado, repousa o Artefato Sagrado que procuras.
