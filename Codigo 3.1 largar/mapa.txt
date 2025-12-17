@@ -1,0 +1,29 @@
+Patio do Limoeiro. A chuva cai fria sobre as pedras.
+-1 1 -1 3 -1 -1 -1 -1
+
+Corredor das Sombras. Tochas apagadas nas paredes.
+0 2 -1 -1 -1 -1 -1 -1
+
+Sala do Trono Destruida. Ouve-se um sussurro constante.
+1 3 4 -1 -1 -1 0 -1
+
+Masmorra Esquecida. Ossos espalhados pelo chao.
+2 -1 -1 -1 -1 -1 -1 -1
+
+Capela Profanada. Um altar partido ao meio.
+-1 5 -1 2 -1 -1 1 -1
+
+Cripta Real. O ar e pesado e gelado.
+4 -1 6 -1 -1 -1 -1 -1
+
+Sala de Armas Antiga. Escudos enferrujados.
+-1 7 -1 5 -1 -1 2 -1
+
+Biblioteca Oculta. Livros desfeitos em po.
+6 8 -1 -1 -1 -1 -1 -1
+
+Tunel Secreto. Estreito e humido.
+7 9 -1 -1 -1 -1 3 -1
+
+Camara do Tesouro. O brilho do ouro ilumina a sala.
+8 -1 -1 -1 -1 -1 -1 1
