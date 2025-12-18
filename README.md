@@ -46,12 +46,18 @@ Desenvolvimento de um jogo de aventuras em linguagem C,executável em Linux, apl
 
 ### 2. Elementos Fundamentais Implementados
 1.  **Jogador**: Possui nome, energia, inventário e estado de missão.
-2.  **Objetos**: `Gladio de Prata` (Arma) e `Agua Benta` (Cura).
-3.  **Local da aventura**: Mapa com navegação (Norte, Sul...) e descrições ricas.
-4.  **Monstro**: Duque das Sombras (Boss com energia e localização).
+2.  **Objetos**: Carregados de objeto.txt (ex: `Gladio de Prata`, `Agua Benta`).
+3.  **Local da aventura**: Mapa carregado de `mapa.txt` com navegação e armadilhas.
+4.  **Monstros** (3 Tipos):
+    *   **Rei Esqueleto** (Boss): Protege a Coroa.
+    *   **Fantasma** (Errante): Vagueia pelo mapa.
+    *   **O Chato** (Bloqueador): Impede a passagem numa sala.
 5.  **Tesouro**: Coroa Sagrada (Item de vitória).
+6.  **Atmosfera**: Eventos aleatórios e descrições dinâmicas.
 
 ### 3. Funcionalidades
 *   Exploração de mapa (Navegação entre células).
-*   Comandos de interação: `ver`, `apanhar`, `atacar`.
+*   Carregamento dinâmico de Mapa e Objetos (`mapa.txt`, `objetos.txt`).
+*   **Concorrência**: Processos distintos para Jogador e Monstros.
+*   **Sincronização**: Uso de Semáforos para Memória Partilhada e I/O.
 *   Ciclo de jogo (Game Loop) contínuo até vitória ou derrota.
