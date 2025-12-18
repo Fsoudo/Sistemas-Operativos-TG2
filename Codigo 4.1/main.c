@@ -106,15 +106,22 @@ void InitializeWorld() {
   gamestate->player.object_id = -1;
   gamestate->player.treasure_status = -1;
 
-  gamestate->player.treasure_status = -1;
-
   // --- CONFIGURACAO DOS MONSTROS ---
   
   // 1. Rei Esqueleto (BOSS) - Estatico
+  // Encontrar onde esta o tesouro para colocar o Boss
+  int treasure_cell = 9; // Fallback
+  for (int i = 0; i < gamestate->nCells; i++) {
+      if (gamestate->map[i].treasure == 1) {
+          treasure_cell = i;
+          break;
+      }
+  }
+
   strcpy(gamestate->monsters[0].name, "Rei Esqueleto");
   gamestate->monsters[0].energy = 150;
   gamestate->monsters[0].max_energy = 150;
-  gamestate->monsters[0].cell = 9; // Sala do Tesouro (ou guarda a entrada)
+  gamestate->monsters[0].cell = treasure_cell; // Guarda a Coroa
 
   // 2. Fantasma (ROAM) - Vagueia
   strcpy(gamestate->monsters[1].name, "Fantasma Errante");
