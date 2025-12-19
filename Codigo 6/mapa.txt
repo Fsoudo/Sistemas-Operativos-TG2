@@ -1,0 +1,14 @@
+Entrada da Masmorra. Um pequeno hall frio e humido.
+-1 1 -1 -1 -1 -1 -1 -1
+Corredor Escuro. Um corredor estreito.
+0 2 -1 -1 -1 -1 -1 -1
+Sala das Armas. Uma espada no chao.
+1 3 -1 -1 -1 -1 0 -1
+Encruzilhada. Caminhos para todos os lados.
+2 5 4 -1 -1 -1 -1 -1
+Sala Trancada. Uma pequena sala lateral.
+-1 -1 -1 3 -1 -1 1 -1
+Antecamara do Rei. Grandes portas duplas levam a norte.
+3 6 -1 -1 -1 -1 -1 -1
+Sala do Trono. O tesouro brilha ao fundo.
+5 -1 -1 -1 -1 -1 -1 1
