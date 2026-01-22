@@ -1,0 +1,2 @@
+0 Espada Enferrujada 10
+1 Pocao de Vida -10
